@@ -1,0 +1,3 @@
+D:\VSworkspace\demo-Collection\demo-Collection\demo-Collection\obj\Debug\demo-Collection.njsproj.AssemblyReference.cache
+D:\VSworkspace\demo-Collection\demo-Collection\demo-Collection\obj\Debug\demo-Collection.njsproj.CoreCompileInputs.cache
+D:\VSworkspace\demo-Collection\demo-Collection\demo-Collection\bin\Microsoft.NodejsTools.WebRole.dll
