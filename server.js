@@ -2,6 +2,10 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 const bcrypt = require('bcrypt')
+var path = require('path')
+
+app.use(express.static(path.join(__dirname, '/public')));
+
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
@@ -48,6 +52,12 @@ app.post('/register', async (req, res) => {
     
   })
 
+
+  //todo-list
+
+  app.get("/todo-list", function (req,res) {
+    res.sendFile(__dirname + "/todo.html");
+  })
 
 
 
