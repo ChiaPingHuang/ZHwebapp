@@ -1,0 +1,33 @@
+body {
+    background-color: orange;
+}
+
+.showTask .title {
+    display: block;
+    text-align: center;
+}
+
+.showTask {
+    height: 600px;
+    border: solid;
+}
+
+.task-d {
+    position: relative;
+    margin: 50px 200px;
+    height: 150px;
+    width: 75%;
+    border: solid 3px black;
+    border-radius: 5px;
+    text-align: center;
+
+
+}
+
+.task-p {
+    position: absolute;
+    left: 30px;
+    display: inline-block;  
+    color: red;
+    font-size: 30px;
+}
